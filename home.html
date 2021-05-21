@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>South Orange Chamber</title>
+    <!-- bootstap html and cc elemets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!--links my css page -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Allows me to use JQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- Allows me to use Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/floo.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+</head>
+
+<body id='bStreamer' class='tessttt'>
+    <nav class="navbar navbar-default" id="navStarted">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img id='logoID' src="assets/images/logo-2.png"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="navFont" href="home">Home</a>
+                </li>
+                <li>
+                    <a class="navFont" href="membershipBenefits">Membership Benefits</a>
+                </li>
+                <li>
+                    <a class="navFont" href="events">Events</a>
+                </li>
+                <li>
+                    <a class="navFont" href="articles">Articles</a>
+                </li>
+                <li>
+                    <a class="navFont" href="memberDirectory">Directory</a>
+                </li>
+                <li>
+                    <a class="navFont" href="contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <!-- brands/streamers -->
+    <div class="row indexRow" id="setMarginTop">
+        <div class="col-md-2"></div>
+        <!-- left column -->
+        <div class="col-md-8" class="rightStreamer">
+            <div id="righty" class='boxShadowClass'>
+            </div>
+            <center>
+                <h1>Welcome To The South Orange Chamber Of Commerce!</h1>
+            </center>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <!-- Get to top of page button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div id="containerS">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 missionStatementTitle">
+                <h2 style="text-align: center;">Our Mission Statement</h2>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <p class="missionStatement" style="text-align: center;">The South Orange Chamber of Commerce is a civic
+                    not-for-profit organization of citizens, businesses and professional people who provide leadership
+                    skills, share their resources, experience and talents, providing the framework to build a strong
+                    and healthy community.
+                </p>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h2 style="text-align: center;">Why Join Our Chamber?</h2>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3 style="text-align: center;">Community</h3>
+                <p style="text-align: center;">Our Events are focused around socializing as well as helpful information
+                    for the benefit of all our members.</p>
+            </div>
+            <div class="col-md-4">
+                <h3 style="text-align: center;">Networking</h3>
+                <p style="text-align: center;">Expand your network of local professionals and entrpreneurs who can help
+                    your business and increase your connections within the local community.</p>
+            </div>
+            <div class="col-md-4">
+                <h3 style="text-align: center;">Leadership</h3>
+                <p style="text-align: center;">Practice your leadership, networking, and social skills in our community
+                    of professionals.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row" id="bone">
+                <div class="col-md-4"></div>
+                <div class="col-md-4" id="landingFoot">
+                    <h3>Have Questions? Email Us Today!</h3>
+                    <a href="contact.html">
+                        <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal"
+                            id="submitButton">Contact</button>
+                    </a>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Chrome, Safari and Opera
+        document.documentElement.scrollTop = 0; // For IE and Firefox
+    }
+</script>
+
+</html>

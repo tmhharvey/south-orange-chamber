@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>South Orange Chamber</title>
+    <!-- bootstap html and cc elemets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!--links my css page -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Allows me to use JQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- Allows me to use Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/floo.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+</head>
+
+<body id='bStreamer'>
+    <nav class="navbar navbar-default" id="navStarted">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img id='logoID' src="assets/images/logo-2.png"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="navFont" href="home">Home</a>
+                </li>
+                <li>
+                    <a class="navFont" href="membershipBenefits">Membership Benefits</a>
+                </li>
+                <li>
+                    <a class="navFont" href="events">Events</a>
+                </li>
+                <li>
+                    <a class="navFont" href="articles">Articles</a>
+                </li>
+                <li>
+                    <a class="navFont" href="memberDirectory">Directory</a>
+                </li>
+                <li>
+                    <a class="navFont" href="contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <div id="container2">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 missionStatementTitle">
+                <h1 style="text-align: center;">Contact Information</h1>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <p class="missionStatement" style="text-align: center;"><b>If you want to join our community or have
+                        any questions, feel free to contact us any time at: </b>
+                    <br>
+                    <br> Email: southorangechamber@gmail.com
+                    <br>Phone: (407)-491-8983
+                </p>
+            </div>
+            <center><img src="assets/images/mainPicture.png" style="width: 30%; height: 50%;" class='img-responsive boxShadowClass'></center>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <center>
+                    <p class="copyrighttext">Copyright 2017 South Orange Chamber Of Commerce</p>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Chrome, Safari and Opera
+        document.documentElement.scrollTop = 0; // For IE and Firefox
+    }
+</script>
+
+</html>
