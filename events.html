@@ -1,164 +1,216 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>South Orange Chamber</title>
     <!-- bootstap html and cc elemets-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
     <!--links my css page -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <!--Allows me to use JQuery -->
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Allows me to use Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/images/floo.png">
-    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
-</head>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/images/floo.png" />
+    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png" />
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-default" id="navStarted">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img id='logoID' src="assets/images/logo-2.png"></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="navFont" href="home">Home</a>
-                </li>
-                <li>
-                    <a class="navFont" href="membershipBenefits">Membership Benefits</a>
-                </li>
-                <li>
-                    <a class="navFont" href="events">Events</a>
-                </li>
-                <li>
-                    <a class="navFont" href="articles">Articles</a>
-                </li>
-                <li>
-                    <a class="navFont" href="memberDirectory">Directory</a>
-                </li>
-                <li>
-                    <a class="navFont" href="contact">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#navbar-collapse-1"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="home"
+          ><img id="logoID" src="assets/images/logo-2.png"
+        /></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="navFont" href="home">Home</a>
+          </li>
+          <li>
+            <a class="navFont" href="membershipBenefits">Membership Benefits</a>
+          </li>
+          <li>
+            <a class="navFont" href="events">Events</a>
+          </li>
+          <li>
+            <a class="navFont" href="articles">Articles</a>
+          </li>
+          <li>
+            <a class="navFont" href="memberDirectory">Directory</a>
+          </li>
+          <li>
+            <a class="navFont" href="contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </nav>
     <div id="container1" class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <br>
-                <h1>Chamber Events</h1>
-            </div>
-            <!--    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <br />
+          <h1>Chamber Events</h1>
+        </div>
+        <!--    <div class="col-md-6">
    <div class="givePadding">
      <center><a href="https://docs.google.com/forms/d/e/1FAIpQLSeBt67QeRU6YqJokPZydJaverAPPtfjEOhOqfrUEvpdd72XIA/viewform" target="_blank"><button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="scheduleButton">Sign Up Now</button></a></center>
      <center><p> or schedule a support call <a href="https://app.hubspot.com/meetings/alindsay/getting-started-with-streamfluence?embed=true%22%3E" target="_blank">HERE</a></p></center>
    </div>
  </div> -->
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Monthly Lunch & Learn Seminars</h2>
+          <p>
+            A time where members gather to network and listen to dynamic
+            speakers who bring a variety of key subjects to the table, including
+            business trends and know-how for the area’s small and mid size
+            businesses.
+            <br />
+            <br />
+            Chamber Members can win the Member Spotlight at each Lunch and Learn
+            with the Spotlight on the winner’s business listed in the 'South
+            Orange Connections' newsletter. Contact the Chamber if you are
+            interested in sponsoring or presenting at one of the Lunch and Learn
+            seminars.
+          </p>
+          <br />
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Monthly Lunch & Learn Seminars</h2>
-                <p>A time where members gather to network and listen to dynamic speakers who bring a variety of key
-                    subjects to the table, including business trends and know-how for the area’s small and mid size
-                    businesses.
-                    <br>
-                    <br> Chamber Members can win the Member Spotlight at each Lunch and Learn with the Spotlight on the
-                    winner’s business listed in the 'South Orange Connections' newsletter. Contact the Chamber if you
-                    are interested in sponsoring or presenting at one of the Lunch and Learn seminars.
-                </p>
-                <br>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <img
+                src="assets/images/chamberClassPic.png"
+                style="max-height: 400px"
+                class="img-responsive boxShadowClass"
+              />
             </div>
-            <div class="col-md-6">
-                <div class='row'>
-                    <div class="col-sm-6">
-                        <img src="assets/images/chamberClassPic.png" style="max-height: 400px;" class='img-responsive boxShadowClass'>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="assets/images/eventsImage1.png" style="max-height: 400px;" class='img-responsive boxShadowClass'>
-                    </div>
-                </div>
-
+            <div class="col-sm-6">
+              <img
+                src="assets/images/eventsImage1.png"
+                style="max-height: 400px"
+                class="img-responsive boxShadowClass"
+              />
             </div>
+          </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-6" id="eventsImages">
-                <img src="assets/images/yearlyMeeting.jpg" style="width: 95%; height: 100%;" class='boxShadowClass'>
-            </div>
-            <div class="col-md-6">
-                <h2>Quarterly Business After Hours</h2>
-                <p>These events are held in the early evening and offer a more relaxed atmosphere to socialize and
-                    network with other members, their guests and partnering organizations.
-                    <br>
-                    <br> A chamber member may host a BAH at their place of business as a way of showcasing what they do
-                    and who they are. BAH are free to all chamber members and a small fee is asked for guests and
-                    non-partnering groups. Contact the chamber if you are interested in hosting a BAH.
-                </p>
-                <br>
-            </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-6" id="eventsImages">
+          <img
+            src="assets/images/yearlyMeeting.jpg"
+            style="width: 95%; height: 100%"
+            class="boxShadowClass"
+          />
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Want To Support The Chamber?</h2>
-                <p>Contribute with event sponsorship and partnering, newsletter advertising and membership. Contact the
-                    Chamber for more information at (407) 491-8983 or email: connect@southorlandochamber.com
-                </p>
-                <br>
-            </div>
+        <div class="col-md-6">
+          <h2>Quarterly Business After Hours</h2>
+          <p>
+            These events are held in the early evening and offer a more relaxed
+            atmosphere to socialize and network with other members, their guests
+            and partnering organizations.
+            <br />
+            <br />
+            A chamber member may host a BAH at their place of business as a way
+            of showcasing what they do and who they are. BAH are free to all
+            chamber members and a small fee is asked for guests and
+            non-partnering groups. Contact the chamber if you are interested in
+            hosting a BAH.
+          </p>
+          <br />
         </div>
-        <hr>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Want To Support The Chamber?</h2>
+          <p>
+            Contribute with event sponsorship and partnering, newsletter
+            advertising and membership. Contact the Chamber for more information
+            at (407) 491-8983 or email: connect@southorlandochamber.com
+          </p>
+          <br />
+        </div>
+      </div>
+      <hr />
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!-- Footer -->
     <div id="footer">
-        <div class="container">
-            <div class="row" id="bone">
-                <div class="col-md-4"></div>
-                <div class="col-md-4" id="landingFoot">
-                    <h3>Have Questions? Email Us Today!</h3>
-                    <a href="contact.html">
-                        <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal"
-                            id="submitButton">Contact</button>
-                    </a>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
+      <div class="container">
+        <div class="row" id="bone">
+          <div class="col-md-4"></div>
+          <div class="col-md-4" id="landingFoot">
+            <h3>Have Questions? Email Us Today!</h3>
+            <a href="contact.html">
+              <button
+                class="btn btn-lg btn-outline-light mt-3 call-button-1"
+                data-toggle="modal"
+                data-target="#myModal"
+                id="submitButton"
+              >
+                Contact
+              </button>
+            </a>
+          </div>
+          <div class="col-md-4"></div>
         </div>
+      </div>
     </div>
-</body>
-<script type="text/javascript">
-    window.onscroll = function () { scrollFunction() };
+  </body>
+  <script type="text/javascript">
+    window.onscroll = function () {
+      scrollFunction();
+    };
 
     function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
-        } else {
-            document.getElementById("myBtn").style.display = "none";
-        }
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
     }
 
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
-        document.body.scrollTop = 0; // For Chrome, Safari and Opera
-        document.documentElement.scrollTop = 0; // For IE and Firefox
+      document.body.scrollTop = 0; // For Chrome, Safari and Opera
+      document.documentElement.scrollTop = 0; // For IE and Firefox
     }
-</script>
-
+  </script>
 </html>
